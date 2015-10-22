@@ -37,3 +37,5 @@ group :development do
   gem 'annotate'
   gem 'quiet_assets'
 end
+
+gem 'react-rails'
