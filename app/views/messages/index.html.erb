@@ -1,2 +1,9 @@
-<h1>Messages#index</h1>
-<p>Find me in app/views/messages/index.html.erb</p>
+<p><%= session[:name] %></p>
+
+<div id='messages'></div>
+
+<%= form_for :message, url: messages_path, remote: true, id: 'messages-form' do |f| %>
+  <%= f.label :content %>
+  <%= f.text_field :content %>
+  <%= f.submit 'Send' %>
+<% end %>

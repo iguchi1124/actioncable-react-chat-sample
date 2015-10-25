@@ -3,5 +3,6 @@ class MessagesController < ApplicationController
   end
 
   def create
+    head :ok
   end
 end
