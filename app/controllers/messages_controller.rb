@@ -5,7 +5,7 @@ class MessagesController < ApplicationController
   def create
     ActionCable.server.broadcast 'messages',
       message: params[:message][:content],
-      username: session[:name]
+      name: session[:name]
 
     head :ok
   end
