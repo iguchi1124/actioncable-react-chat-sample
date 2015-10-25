@@ -40,3 +40,4 @@ group :development do
 end
 
 gem 'react-rails'
+gem 'actioncable', github: 'rails/actioncable'
