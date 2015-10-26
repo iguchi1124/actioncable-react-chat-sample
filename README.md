@@ -7,10 +7,10 @@ Rails + ReactJS + WebSocket(ActionCable)
 
 ### Run redis server
 
-``> bundle exec puma -p 28080 cable/config.ru``
+``$ bundle exec puma -p 28080 cable/config.ru``
 
-``> redis-server``
+``$ redis-server``
 
 ### Run rails server
 
-``> bundle exec rails s``
+``$ bundle exec rails s``
