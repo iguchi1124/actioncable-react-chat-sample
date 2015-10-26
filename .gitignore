@@ -36,3 +36,10 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Created by https://www.gitignore.io/api/redis
+
+### Redis ###
+# Ignore redis binary dump (dump.rdb) files
+
+*.rdb
