@@ -3,7 +3,7 @@ class SessionsController < ApplicationController
   end
 
   def create
-    session[:name] = params[:session][:name]
+    session[:name] = params.require(:session)[:name]
     redirect_to messages_path
   end
 end
