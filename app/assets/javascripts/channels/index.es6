@@ -2,5 +2,5 @@
 //= require_self
 //= require_tree .
 
-var App = {};
+let App = {};
 App.cable = Cable.createConsumer('ws://localhost:28080');

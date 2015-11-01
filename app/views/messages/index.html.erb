@@ -1,6 +1,6 @@
-<p><%= session[:name] %></p>
+<p>Name: <%= session[:name] %></p>
 
-<div id='messages'></div>
+<%= react_component('Messages') %>
 
 <%= form_for :message, url: messages_path, remote: true, id: 'messages-form' do |f| %>
   <%= f.label :content %>
