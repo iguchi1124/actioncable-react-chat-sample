@@ -214,8 +214,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    shoulda-matchers (3.0.0)
-      activesupport (>= 4.0.0)
     slop (3.6.0)
     spring (1.4.0)
     spring-commands-rspec (1.0.4)
@@ -278,10 +276,8 @@ DEPENDENCIES
   rubocop
   sass-rails
   sdoc (~> 0.4.0)
-  shoulda-matchers
   spring
   spring-commands-rspec
-  sprockets (>= 3.0.0)
   sprockets-es6
   sqlite3
   turbolinks

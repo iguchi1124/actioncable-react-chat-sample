@@ -9,8 +9,6 @@ gem 'puma'
 gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
-
-gem 'sprockets', '>= 3.0.0'
 gem 'sprockets-es6', require: 'sprockets/es6'
 
 gem 'jquery-rails'
@@ -29,7 +27,6 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
-  gem 'shoulda-matchers'
   gem 'database_cleaner'
   gem 'rubocop'
 
