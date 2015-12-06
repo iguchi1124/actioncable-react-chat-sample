@@ -26,6 +26,7 @@ group :development, :test do
 
   gem 'spring-commands-rspec'
   gem 'rspec-rails'
+  gem 'guard-rspec'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'rubocop'
